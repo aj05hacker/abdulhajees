@@ -37,24 +37,26 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
     rel="stylesheet">
+
+
+
+
+    <script>
+      // Function to detect if the user is on a mobile device
+      function detectMobile() {
+          var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+          if (isMobile) {
+              alert("For the best experience, please open this site on a desktop.");
+          }
+      }
+  </script>
 </head>
 
-<body id="top" class="dark_theme">
+<body id="top" class="dark_theme" onload="detectMobile()">
 
   <!-- 
     - #HEADER
   -->
-
-
-
-
-
-
-
-
-
-
-
   <header class="header" data-header>
     <div class="container">
 
