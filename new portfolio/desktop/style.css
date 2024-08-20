@@ -475,7 +475,7 @@
   .hero-banner {
     max-width: 500px;
     width: 125%;
-    margin-bottom: 30px;
+    margin: bottom 0px;
   }
   
   :is(.hero-social-list, .scroll-down) { display: none; }
