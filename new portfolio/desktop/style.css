@@ -1355,20 +1355,3 @@
     .about-banner { max-width: 450px; }
   
   }
-  
-
-
-
-
-  .profile-photo {
-    width: 4%; /* Adjust the size as needed */
-    height: 4%; /* Adjust the size as needed */
-    border-radius: 50%;
-    display: block;
-    margin: 7% ; /* Center the image and add some space below it */
-  }
-  
-  .hero-content {
-    text-align: center; /* Center the content */
-  }
-  
